@@ -1,0 +1,19 @@
+{
+  "name": "generator-ops",
+  "version": "0.0.1",
+  "description": "generate folder structure for OPS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "qinezh",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^1.0.1"
+  },
+  "files": [
+    "app"
+  ]
+}
