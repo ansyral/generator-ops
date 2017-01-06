@@ -1,19 +1,35 @@
 {
   "name": "generator-ops",
   "version": "0.0.1",
-  "description": "generate folder structure for OPS",
+  "description": "Yeoman generator for OPS onboarding folder structure",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ci-publish": "ci-publish"
   },
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "openpublishbuild",
+    "ops"
   ],
-  "author": "qinezh",
+  "author": {
+    "name": "qinezh",
+    "url": "https://github.com/qinezh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qinezh/generator-ops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qinezh/generator-ops/issues"
+  },
+  "main": "app/index.js",
   "license": "MIT",
   "dependencies": {
     "yeoman-generator": "^1.0.1"
   },
   "files": [
     "app"
-  ]
+  ],
+  "devDependencies": {
+    "ci-publish": "^1.3.0"
+  }
 }
