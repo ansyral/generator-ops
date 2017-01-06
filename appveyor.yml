@@ -1,5 +1,5 @@
 environment:
-  npm_token:
+  NPM_TOKEN:
     secure: CF0+NkSX0D4jrSH20ybWD6TXIiYK0X19r02p1u0NqZORVoCBVhmOCRVjc93Bd4DW
 
 before_build:
