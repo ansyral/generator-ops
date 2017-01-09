@@ -14,7 +14,7 @@
           "cwd": "src/[repository clone_folder name]"
         }
       ],
-      "dest": "api-ref/[sub_path for this project]"
+      "dest": "docs-ref-autogen/[sub_path for this project]"
     }
   ],
   "build": {
@@ -26,22 +26,20 @@
         "exclude": [
           "toc.yml"
         ],
-        "src": "api-ref/[sub_path for this project]",
+        "src": "docs-ref-autogen/[sub_path for this project]",
         "dest": "."
       },
       {
         "files": [
           "toc.yml"
         ],
-        "src": "api-ref",
+        "src": "docs-ref-autogen",
         "dest": "."
       },
       {
         "files": [
           "index.md"
-        ],
-        "src": "api-index",
-        "dest": "."
+        ]
       },
       {
         "files": [
@@ -54,14 +52,14 @@
         "files": [
           "**/*.md"
         ],
-        "src": "documentation",
-        "dest": "documentation"
+        "src": "docs-ref-conceptual",
+        "dest": "docs-ref-conceptual"
       }
     ],
     "overwrite": [
       {
         "files": [
-          "api-doc/**/*.md"
+          "docs-ref-overwrite/**/*.md"
         ]
       }
     ],
