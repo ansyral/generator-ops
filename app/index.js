@@ -59,10 +59,14 @@ module.exports = class extends Generator {
 
   prompting() {
     return this.prompt([{
-      type: 'input',
+      type: 'list',
       name: 'language',
       message: 'Which language are you onboarding for(dotnet/java/rest)',
-      default: SupportedLanguages.dotnet
+      choices: [
+        'dotnet',
+        'java',
+        'rest'
+      ]
     }]).then((answers) => {
       this.data.language = answers.language;
     });
