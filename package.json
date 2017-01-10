@@ -1,6 +1,6 @@
 {
   "name": "generator-ops",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Yeoman generator for OPS onboarding folder structure",
   "scripts": {
     "ci-publish": "ci-publish"
