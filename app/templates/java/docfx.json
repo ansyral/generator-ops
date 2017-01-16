@@ -21,9 +21,7 @@
       {
         "files": [
           "index.md"
-        ],
-        "src": "api-index",
-        "dest": "."
+        ]
       },
       {
         "files": [
@@ -48,7 +46,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "azure/sdk/java/**",
+          "site/**",
           "**/includes/**"
         ]
       }
@@ -56,46 +54,13 @@
     "overwrite": "docs-ref-overwrite/*.md",
     "externalReference": [],
     "globalMetadata": {
-      "author": "erickson-doug",
-      "ms.author": "douge",
-      "manager": "douge",
-      "ms.topic": "reference",
-      "ms.devlang": "java",
-      "ms.date": "11/16/2016",
-      "breadcrumb_path": "~/breadcrumb/toc.yml",
-      "brand": "azure"
+      "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
     "fileMetadata": {
-      "ms.service":
-      {
-        "docs-ref-autogen/com.microsoft.azure.batch**.yml": "batch",
-        "docs-ref-autogen/com.microsoft.azure.eventhubs**.yml": "event-hubs",
-        "docs-ref-autogen/com.microsoft.azure.iot**.yml": "iot-suite",
-        "docs-ref-autogen/com.microsoft.azure.iothub**.yml": "iot-hub",
-        "docs-ref-autogen/com.microsoft.azure.keyvault**.yml": "key-vault",
-        "docs-ref-autogen/com.microsoft.azure.management.batch**.yml": "batch",
-        "docs-ref-autogen/com.microsoft.azure.management.compute**.yml": "big-compute",
-        "docs-ref-autogen/com.microsoft.azure.management.compute._virtual_machine_scale_set**.yml": "virtual-machine-scale-sets",
-        "docs-ref-autogen/com.microsoft.azure.management.datalake.analytics**.yml": "data-lake-analytics",
-        "docs-ref-autogen/com.microsoft.azure.management.datalake.store**.yml": "data-lake-store",
-        "docs-ref-autogen/com.microsoft.azure.management.dns**.yml": "dns",
-        "docs-ref-autogen/com.microsoft.azure.management.graphrbac**.yml": "graphrbac",
-        "docs-ref-autogen/com.microsoft.azure.management.keyvault**.yml": "key-vault",
-        "docs-ref-autogen/com.microsoft.azure.management.network**.yml": "virtual-network",
-        "docs-ref-autogen/com.microsoft.azure.management.redis**.yml": "redis-cache",
-        "docs-ref-autogen/com.microsoft.azure.management.resources**.yml": "azure-resource-manager",
-        "docs-ref-autogen/com.microsoft.azure.management.sql**.yml": "sql-database",
-        "docs-ref-autogen/com.microsoft.azure.management.storage**.yml": "storage",
-        "docs-ref-autogen/com.microsoft.azure.management.trafficmanager**.yml": "traffic-manager",
-        "docs-ref-autogen/com.microsoft.azure.management.website**.yml": "websites",
-        "docs-ref-autogen/com.microsoft.azure.servicebus**.yml": "service-bus",
-        "docs-ref-autogen/com.microsoft.azure.storage**.yml": "storage",
-        "docs-ref-autogen/com.microsoft.appplicationinsights**.yml": "application-insights"
-      }
     },
     "template": [
-      "docs.html"
+      "default"
     ],
-    "dest": "azure/sdk/java"
+    "dest": "site"
   }
 }
